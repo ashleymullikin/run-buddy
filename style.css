@@ -31,7 +31,7 @@ header h1 {
 header a {
     text-decoration: none;
     color: #fce138;
-    display: inline;
+    /* display: inline; */
 }
 
 /* changing where the nav header is */
@@ -41,9 +41,9 @@ header nav {
     display: inline;
 }
 
-header nav ul li {
-    display: inline;
-  }
+/* header nav ul li { */
+    /* display: inline; */
+  /* } */
 
 header nav ul li a {
     margin: 0 30px;
