@@ -1,0 +1,75 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* this takes away default spacing to start from baseline, the * is the universial selector */
+body {
+    /* having this at the top of the body applies it to all aspects of the page without having to re-write the same code mutiple times */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+
+/* apply styles to the header  THERE IS STILL SOME ISSUE WITH HEADER ALIGNMENT*/
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+/* adding color to the <a> elements in the header and getting rid of the automatic blue underline with links */
+header a {
+    text-decoration: none;
+    color: #fce138;
+    display: inline;
+}
+
+/* changing where the nav header is */
+header nav {
+    float: right;
+    margin: 7px 0;
+    display: inline;
+}
+
+header nav ul li {
+    display: inline;
+  }
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
+}
