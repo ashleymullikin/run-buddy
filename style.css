@@ -33,6 +33,9 @@ header a {
     color: #fce138;
     /* display: inline; */
 }
+header nav ul li { 
+    display: inline;
+   }
 
 /* changing where the nav header is */
 header nav {
