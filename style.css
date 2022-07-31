@@ -76,3 +76,127 @@ footer div {
 footer a {
     color: #024e76;
 }
+
+/* starting hero section */
+
+section {
+    padding: 60px;
+}
+
+/* The beginning of the hero section for styling */
+.hero{
+    background-image: url("hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* end of hero styling */
+
+.form{
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border: solid 3px #024e76;
+    /* can add three property values to all sides of border when "border" is used */
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px;
+}
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0px;
+}
+
+.submit {
+    background-color: #024e76;
+    color: #fce138;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.intro{
+    text-align: center;
+}
+
+.intro h2{
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    /* padding order goes Top -> Right -> Bottom -> Left */
+    border-bottom: 3px solid;
+    border-color: #fce138;
+    /* The two aspects for the border, bottom and color could be done in as one */
+    display: inline-block;
+    /* This allows occupation of as much space as needed, rather than 100% of their parent width */
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    /* The 0 auto sets a shorthand top and bottom margin of zero , and left and right of auto, which means the computer will automatically be making both sides even, thus CENTERING */
+}
+
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+
+.steps h2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #39a6b2;
+}
+
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+.steps span {
+    font-size: 38px;
+}
+
