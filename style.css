@@ -36,7 +36,15 @@ header a {
     /* display: inline; */
 }
 header nav ul li { 
-    display: inline;
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    /* view point width, changes based on the size of browser, 1.5% of window's width */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
    }
 
 /* changing where the nav header is */
