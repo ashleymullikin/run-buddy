@@ -35,6 +35,13 @@
 
         <!-- hero/jumbotron/large image at the top -->
         <section class="hero">
+            <div class="hero-cta">
+              <h2>Start Building Habits.</h2>
+              <p>
+                seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird on it messenger bag Wes Anderson Schlitz plaid Bushwick church-key lo-fi skateboard slow-carb hashtag trust fund Williamsburg biodiesel fixie farm-to-table 8-bit banjo XOXO Banksy chillwave bicycle rights retro cliche tattooed bespoke irony mumblecore Shoreditch deep v polaroid McSweeney's bitters cray gentrify tofu Marfa you probably haven't heard of them yr banh mi asymmetrical art party selvage letterpress High Life.
+              </p>
+            </div>
+          
             <div class="form">
                 <h3>Get Started Today</h3>
                 <!-- the p means paragraph and renders the text in the page body -->
@@ -75,44 +82,75 @@
         <!-- End of hero section -->
 
         <!-- What we do section -->
-        <section id="what-we-do" class="intro">
-            <h2>What We Do 🏃</h2>
-        </section>
+      <section id="what-we-do" class="intro">
+         <div class="flex-row">
+          <h2 class="section-title primary-border">
+            What We Do
+          </h2>
+        </div>
+      </section>
+      <div class="flex-row">
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, architecto molestias ad sit ullam vitae aliquid blanditiis, totam soluta esse optio at excepturi ipsum, dolorum ipsa aut. Corrupti, perspiciatis numquam.
         </p>
+      </div>
 
         <!-- What you do section -->
     <section id="what-you-do" class="steps">
-            <h2>What You Do 🏃</h2>
-
-        <div>
-            <!-- insert the image element when downloaded -->
-            <img src="./assets/images/step-1.svg" alt=""/>
-            <!-- adding in the alt with empty parentheses, is best for assistive readers to show an image is for decorative purposes -->
-            <h3>Step 1: <span>Fill out the Form Above.</span></h3>
-            <!-- the san wraps certain parts of the text, but not visually so has to alaso have CSS -->
-            <p>You're already here, so why not?</p>
+        <div class="flex-row">
+          <h2 class="section-title primary-border">
+            What You Do 🏃
+          </h2>
         </div>
 
-        <div>
-            <!-- Adding in the other SVG image to second step -->
-            <img src="./assets/images/step-2.svg" alt="" />
-            <h3>Step 2: <span>Conult with One of Our Trainers.</span></h3>
+        <div class="step">
+            <h3>Step 1.</h3>
+            <div class="step-info">
+              <!-- insert the image element when downloaded -->
+              <img src="./assets/images/step-1.svg" alt=""/>
+              <!-- adding in the alt with empty parentheses, is best for assistive readers to show an image is for decorative purposes -->
+            </div>
+            <div class="step-text">
+            <!-- the span wraps certain parts of the text, but not visually so has to alaso have CSS -->
+            <h4>Fill Out The Form Above</h4>
+            <p>You're already here, so why not?</p>
+          </div>
+        </div>
+      </div>
+
+        <div class="step">
+            <h3>Step 2.</h3>
+            <div class="step-info">
+              <!-- Adding in the other SVG image to second step -->
+              <img src="./assets/images/step-2.svg" alt="" />
+            </div>
+        <div class="step-text">
             <p>Are you here to build muscle, lose weight, or just feel good?</p>
         </div>
+      </div>
+    </div>
 
-        <div>
+        <div class="step">
+          <h3>Step 3.</h3>
+          <div class="step-info">
             <img src="./assets/images/step-3.svg" />
-            <h3>Step 3: <span> Running.</span></h3>
+          </div>
+        <div class="step-text">
             <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
         </div>
+      </div>
+    </div>
 
-        <div>
+        <div class="step">
+          <h3>Step 4: See Results.</h3>
+          <div class="step-info">
             <img src="./assets/images/step-4.svg" alt="" />
-            <h3>Step 4: See Results.</h3>
+          </div>
+          <div class="step-text">
             <p>Bi-weekly checkin with your trainer will keep you focused</p>
         </div>
+      </div>
+    </div> 
     </section>
 
   <!-- meet the trainers section -->
@@ -173,6 +211,19 @@
             allowfullscreen=""
             loading="lazy">
             </iframe>
+        </div>
+
+        <div class="contact-form">
+          <h3>Contact Us</h3>
+          <form>
+             <label for="contact-name">Your Name</label>
+             <input type="text" id="contact-name" placeholder="Your Name" />
+        
+             <label for="contact-message">Message</label>
+             <textarea id="contact-message" placeholder="Message"></textarea>
+        
+             <button type="submit">Submit</button>
+            </form>
         </div>
 
         <div>
